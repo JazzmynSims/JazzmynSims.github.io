@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="nav.css">
+        <link href="flex.css" rel="stylesheet">
+        <link href="hamburgermenu.css" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      
+        <title>About Me</title>
+       
+       <style>
+        /* Reference: https://www.w3schools.com/css/css_navbar_horizontal.asp */
+     ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+     }
+     
+     li {
+       display: inline;
+     }
+     /* End of Reference */
+
+     ul li { 
+     display: inline; 
+     border: none; 
+     text-decoration: underline; 
+     text-align: center; 
+     width: 160px; 
+     list-style-type: none; 
+     padding: 30px 30px 30px 30px; 
+     margin-top: 0; 
+     margin-left: 15px; 
+     }
+ .dropbtn {
+  padding: 16px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ffffff}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}/* End of Reference */
+
+img {
+  border: 5px solid #cf5f40;
+}
+/* Reference: https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mediaquery */
+
+body {
+  background-color: rgb(46, 49, 54);
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(255, 191, 131);
+  }
+}/* End of Reference: https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mediaquery */
+
+/*Reference: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.icons{
+  text-align: center;
+}
+.video{
+  width: 100%;
+  height: auto;
+}
+          
+     </style>
+     
+    </head>
+    <body>
+         <!-- Content for About Me page for website! -->
+         <!-- (A) MENU WRAPPER -->
+     <nav id="hamnav">
+        <!-- (B) THE HAMBURGER -->
+        <label for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger"/>
+  
+        <!-- (C) MENU ITEMS -->
+        <div class="dropdown" id="hamitems">
+          <ul>
+          <li><a href="indexMobile.html">HOME</a></li>
+          <li><a href="aboutMobile.html">ABOUT</a></li>
+          <li><a href="projectMobile.html">PROJECTS</a>
+          <li><a href="reflectionMobile.html">REFLECTION</a></li>
+          <li><a href="contactMobile.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+       </div>
+      
+        <div class="Header">
+         <header>
+        <h1>ABOUT ME</h1>
+      
+       <main>
+        <nav>
+           
+        </nav>
+        </main>
+
+        <div class="picture"><img src= "jsims.jpeg" width = "50%" height="auto">
+       
+          <h2>Jazzmyn Sims</h2>
+
+          <h3>University of Missouri, <b>Engineering Scholar</b></h3>
+
+          <ul class="resume">
+            <li><a href="resume.pdf">Jazzmyn's Resume 2022</a></li>
+        </ul>
+
+        <div class="Content">
+        <p>
+            Hello World! My name is Jazzmyn Sims a 21-year-old junior at the <em>University of Missouri </em> in Columbia, Missouri. My major is in Information Technology with the School of Engineering with a follow-up minor study in Human Development and Family Science. I have a few great careers in mind, but I haven't made up my mind yet. My expected graduation date for completion is December 2023. <br> I attended to <em> Muriel Williams Battle High School </em>, home of the Spartans also in Columbia, Missouri. I was involved in a few extracurriculars such as band, orchestra (first chair), AVID board committee and MAC Scholars to name a few. I graduated in 2019 with honors, placing me in the top 20% of my class. A few astonishing accomplishments I achieved are list of scholarships I received, being 1 of the 5 students to create a fully functional Black History Month Assembly for our entire school (2019), and last but not least I was given the opportunity to be 1 of the 15 artists to paint a mural downtown Columbia. I am capable of achieving everything I set my mind to! I'm excited to see what this bright future has in store for myself! 
+
+        </p>
+        
+        </div>
+        <blockquote>
+          <h3>________________________</h3>
+
+        <h1>Video Resume</h1>
+<!-- Reference: https://www.w3schools.com/html/html5_video.asp -->
+        <video autoplay id="video">
+          <source src="SimsVideoResume2022.mp4" type="video/mp4">
+          <p><strong>Note:</strong> The autoplay attribute will not work on some mobile devices.</p>
+         </video>
+        <h3> 
+            
+             <em>"Don't let success go to your head and failure to your heart." - Will Smith</em>
+
+        </h3>
+         </blockquote>
+
+         <div class="Footer">
+          <footer>
+             <!-- Reference: https://www.w3schools.com/tags/tag_footer.asp -->
+         
+         
+       
+       
+             <!--Social media icons -->
+             <div class="icons">
+ 
+            <a href="mailto:JCSG6C@umsystem.edu" class="fa fa-google"></a>
+             <a href="linkedin.com/in/jazzmyn-sims-bb5667184" class="fa fa-linkedin"></a>
+         </div>
+         <h3>CREATOR: JAZZMYN SIMS</h3>
+ 
+             <!-- Reference: https://www.html.am/html-codes/character-codes/html-copyright-code.cfm -->
+             &copy; Copyright 2022 Jazzmyn Sims, Inc
+         </footer>
+        
+        </footer>
+    </div>
+    </body>
+</html>
