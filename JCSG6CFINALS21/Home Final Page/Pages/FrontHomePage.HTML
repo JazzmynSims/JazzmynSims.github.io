@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!--
+    Name: Jazzmyn Sims 
+    Pawprint: JCSG6C
+    Date: 04-26-2021
+    Challenge : FINAL S21
+    Ref:
+1. https://www.youtube.com/watch?v=L5WWrGMsnpw
+2. https://www.youtube.com/watch?v=m91pL94YLvg&t=12s
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Jazzmyn Gadgets TECH</title>
+        <link rel="stylesheet" type= "text/css" href="styles.CSS">
+    
+    <style>
+    
+    a:link, a:visited {
+          background-color: transparent;
+          color: white;
+          padding: 14px 25px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          border: 1px white solid;
+          border-radius: 15px;
+   }
+
+        a:hover, a:active {
+          background-color: red;
+   }
+    </style>
+    </head>
+    <body>
+        
+        <div class="full-page">
+        
+           <div class="container">
+                    <div class="logo">
+                      <img src='IMG_8843.PNG' alt="">
+                      </div>
+                    <nav>
+                      <ul>
+                      <li><a href="Pages/videoPage.html">Video Product</a></li>
+                      <li><a href="Pages/ThankYouPagePHP.html">Thank You</a></li>
+                <li><button class='loginbtn' onclick="document.getElementById('login-form').style.display='block'"value="">Login</button></li>
+                         
+                    
+                    </ul>
+                    </nav>
+                    </div>
+                    <hr>
+        
+         <div class="wrappercontainer">
+              <div class="col">
+                  <h1>Fire TV Stick 4K streaming device with Alexa Voice Remote | Dolby Vision | 2018 release</h1>
+                  <div class="caption">
+                    <p class="captext">If you are shopping for a new streaming device, you must have thought about some of the popular ones. Amazon FireStick, Fire TV, Roku, Chromecast, and Android TV Boxes are the most likely options you will choose from.</p>
+                  <a class="button" href="https://www.amazon.com/Fire-TV-Stick-4K-with-Alexa-Voice-Remote/dp/B079QHML21/ref=sr_1_3?crid=GKHYHP2PJ7ZD&dchild=1&keywords=fire+stick&qid=1619643395&sprefix=f%2Caps%2C197&sr=8-3" target="_blank">Order Here</a>
+                  </div>
+                  <img src="firestick.png.webp" alt="Firestick">
+              </div>
+              <div class="col">
+                  <h1>Echo Dot (3rd Gen) - Smart speaker with Alexa - Designed to protect your privacy - Charcoal</h1>
+                   <div class="caption">
+                    <p class="captext">The Echo Dot is Amazon's small, puck-like smart speaker with the firm's Alexa voice assistant built in. New for the third generation is a softer, more rounded aesthetic with fabric sides. It is also slightly larger in all directions, measuring 99mm in diameter and 43mm tall.</p>
+                  <a class="button" href="https://www.amazon.com/Echo-Dot/dp/B07FZ8S74R/ref=sr_1_1?crid=3GTH75AE9VEW3&dchild=1&keywords=echo+dot&qid=1619643324&sprefix=echo%2Caps%2C193&sr=8-1" target="_blank">Order Here</a>
+                  </div>
+                  <img src="echodot.dms" alt="alexa echo dot">
+              </div>
+                <div class="col">
+                  <h1>All-new Echo Frames (2nd Gen) | Smart glasses with open-ear audio and Alexa | Classic Black</h1>
+                     <div class="caption">
+                    <p class="captext">Amazon’s Echo Frames are the latest smart glasses to follow in that storied tradition of overpromising and underdelivering. They are essentially an Echo Dot that you wear on your face—built entirely around interacting with Amazon's voice assistant, Alexa. They don't have a screen in the lenses like the Focals by North or most other smart eyewear.</p>
+                   <a class="button" href="https://www.amazon.com/All-new-Echo-Frames/dp/B083C58VDP/ref=sr_1_1_sspa?crid=2PAE3WEPA858&dchild=1&keywords=alexa+frames&qid=1619674943&sprefix=alexa+fram%2Caps%2C182&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyUTJYUDk1Sk40R05QJmVuY3J5cHRlZElkPUEwNDU1MTIyV1dQMThKODhQNVVOJmVuY3J5cHRlZEFkSWQ9QTAwNTI2NzExOEZBMDNFRzBUR0MwJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==">Order Here</a>
+                  </div>
+                    <img src="glasses.PNG" alt="echo frames">
+              </div>
+        
+              </div>
+      
+                              <!-- Start of my login and register forms -->
+        
+        <div id='login-form' class="hero">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                    <button type="button" class="toggle-btn" onclick="register()">Register</button>
+                    
+                </div> 
+        
+            <div class="social-icons">
+                <img src="facebook-512.png" alt="facebook">
+                <img src="tw.jpg" alt="twitter">
+                <img src="ig.png" alt="instagram">
+            </div>
+       
+            <form id="login" class="input-group">
+                <h2>Welcome Back!</h2>
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="chech-box"><span>Remember Password</span>  
+                <button type="submit" class="submit-btn">Log in</button>
+            </form>
+          
+          <form id="register" class="input-group">
+              <h2>Welcome!</h2>
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="email" class="input-field" placeholder="Email Id" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="chech-box"><span>I agree to the terms & conditions</span>  
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+                    
+            </div>
+            </div>
+                    <script>
+                        var x = document.getElementById("login");
+                        var y = document.getElementById("register");
+                        var z = document.getElementById("btn");
+                        
+                        function register(){
+                            x.style.left = "-400px";
+                            y.style.left = "50px";
+                            z.style.left = "110px";
+                        }
+                         function login(){
+                            x.style.left = "50px";
+                            y.style.left = "450px";
+                            z.style.left = "0";
+                         }
+                
+                    </script>
+                         
+                            <!-- This is the end of my login and register forms -->
+              <script>
+                  var modal = document.getElementById('login-form'); window.onclick = function(event) {
+                      if (event.target == modal) {
+                          modal.style.display = "none";
+                      }
+                  }
+        
+              </script>
+        </div>
+    </body>
+       </html>
+ 

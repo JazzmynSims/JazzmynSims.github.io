@@ -1,0 +1,63 @@
+body {
+    --accent-color: blue;
+    --background-color: pink;
+    --text-color: black;
+    --transition-delay: 1s;
+
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    
+    transition: var(--transition-delay);
+    background-color: var (--background-color);
+    color: var(--text-color);
+}
+
+body.dark {
+    --accent-color: #D0D066
+    --background-color: #333;
+    --text-color: #000081;
+
+}
+.title {
+    margin: 0;
+    margin-bottom: .5rem;
+    
+}
+.theme-toogle-button {
+    background-color: var (--accent-color);
+    color: var (--button-text-color);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: .5em 1em;
+    border-radius: .3em;
+    border: none;
+    outline: none;
+    transform: var(--transition-delay);
+    transform: scale(1);
+}
+.theme-toogle-button .icon {
+    margin-right: .5em;
+}
+
+.theme-toogle-button: hover,
+.theme-toogle-button: focus {
+    transform:scale(1.1;)
+}
+
+    
+
+}
+.dark .moon {
+    opacity: 1;
+}
+.RowTable {
+    display: flex;
+    width: 10%;
+}

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<!--
+    Name: Jazzmyn Sims 
+    Pawprint: JCSG6C
+    Date: 01-25-2021
+    Challenge 2: multi-Column
+    Reference: 
+
+            1.) http://www.w3schools.com/css/css_float.asp
+            2.) https://www.w3schools.com/html/html_lists.asp
+            3.) http://www.w3schools.com/css/css3_multiple_columns.asp
+            4.) https://css-tricks.com/snippets/css/clear-fix/
+            5.) https://www.w3schools.com/css/css_boxmodel.asp
+            6.) https://www.w3schools.com/css/css_positioning.asp
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Skills</title>
+        <link rel="stylesheet" href="Stylee.css">
+    
+    
+
+        <style>
+            .mainWrapper {
+                border: 9px solid white;
+                margin: 75px;
+                padding: 10px;
+                width: 1122px;
+                border-radius: 90px;
+                height: 750px;
+            }
+            div {
+                border: 2px solid black;
+                width:300px;
+                padding: 100px;
+                margin: 20px;
+                float: left;
+            }
+            
+       
+            .rowWrapper {
+                border: 2px solid black;
+                width: 435px;
+                margin:21px;
+                float: left;
+            }
+            h1 {
+                text-align: center;
+            
+            }
+             .leftColumn {
+               padding: 21px;
+               margin: 21px;
+               width: 244px;
+              height: 425px;
+                 float: left;
+             }
+             .rightColumn {
+               padding: 21px;
+               margin: 21px;
+               width: 244px;
+               float:right;
+               right:1px;
+               top: -309px;
+               position: relative;
+               border-radius: 9px;
+             }
+            
+            
+             .clearfix:after {
+              clear: both;
+              display: table;
+              content: "";
+              
+        
+            }
+            .topRow {
+                width: 325px;
+                height: 211px;
+                padding: 22px;
+                float: left;
+            }
+            .bottomRow {
+               padding: 10px;
+               margin: 15px;
+               width: 300px;
+            }
+            h1 { 
+             text-align: center;
+             font-size:30px;
+            }
+            h2 { 
+             text-align: center;
+             font-size:24px;
+             float: left;
+            }
+            .center {
+              margin: auto;
+              width: 30%;
+              height: 40%;
+              border: 2px solid black;
+              padding: 30px;
+            }
+           
+          
+            
+                
+        </style>
+    </head>
+    <body>  
+        
+          
+        
+            <div class= "mainWrapper clearfix">
+    
+             <h1>Skills</h1>
+             
+            <div class="leftColumn">     
+                
+                    <h1>CourseWork</h1>
+                    <ul>
+                      <li>Web Development I</li>
+                      <li>Computer Model & Animations</li>
+                      <li>Cyber Security</li>
+                      <li>Python</li>
+                      <li>Digital Systems</li>
+                      <li>Programming Languages and Paradigms </li>
+                      <li>Computer Model & Animations</li>
+                      <li>Cyber Security</li>
+                      <li>Python I</li>
+                      <li>Fundamentals of Network Technology</li>
+                      <li>Statistics</li>
+                      <li>Calculus I</li>
+                      <li>Topics in Information Technology</li>
+                </ul>
+            </div>
+        
+        
+             <!--
+            
+                    Left Physical Width =
+                             244px __ Left Content Width
+                          +   21px __ Padding (10.5px Left, 10.5px Right)
+                          +   21px __ Margin (10.5px Left, 10.5px Right)
+                          +    6px __ Border (3px Left, 3px Right)
+          _______________________________________________
+                          =  292px (Left Physical Width)
+            
+            
+            -->
+            
+             
+             <div class="topRow">
+             
+                
+                    <h1>Languages</h1>
+                    <ul>
+                      <li>Python</li>
+                      <li>HTML/Markdown</li>
+                      <li>JavaScript</li>
+                      <li>jQuery</li>
+                      <li>AJAX</li>
+                      <li>PHP</li>
+                      <li>SQL</li>
+                      
+                </ul>
+                </div>
+                <div class="bottomRow">
+                 
+                     <h1>Technologies</h1>
+                     <ul>
+                      <li>Brackets </li>
+                      <li>VisualStudio Code</li>
+                      <li>AutoDesk Maya 2020</li>
+                      <li>Adobe Photoshop</li>
+                      <li>Adobe Illiustrate</li>
+                      <li>Adobe Affect Effects </li>
+                      <li>Adobe Audition</li>
+                     <li>VMware Fusion</li>
+                      <li>Ide </li>
+                      
+                     
+                </ul>
+            </div>
+          
+       
+            <!--
+            
+                       Middle Physical Width =
+                             376px __ Middle Content Width
+                          +   22px __ Padding (11px Left, 11px Right)
+                          +   22px __ Margin (11px Left, 11px Right)
+                          +    6px __ Border (3px Left, 3px Right)
+          ______________________________________________
+                          =  426px (Middle Physical Width)
+            
+            -->
+                 
+            
+         <!--
+            
+                  Left + Middle + Right (Physical Width) = mainWrapper Content Width
+                             Right = Main - Left - Middle 
+                            1122px (Wrapper Content Width)
+                        -    292px (Left Columns Physical Width)
+                        -    426px (Middle Columns Physical Width)
+          ______________________________________________
+                          =  404px (Right Physical Width)
+
+                        
+                         404px (Right Physical Width
+                        -  21px Padding (10.5px Left, 10.5px Right)
+                        -  21px Margin (10.5px Left, 10.5px Right)
+                        -   6px Border(3px Left, 3px Right)
+        
+                        = 356px (Left Physical Width)
+                -->
+        
+            <div class="rightColumn">     
+                
+               
+                   <h1>Honors & Awards</h1>
+                   <ul>
+                      <li>Graduated High School with q 3.5 GPA, placing me in the top 25% of class with Honors and National Honors Society accolades</li>
+                      <li>AVID scholar & Student Council Secretary</li>
+                      <li>MAC Scholars Scholar (1/2 at Battle - 1/6 in the district to receive the MAC Senior Sash)</li>
+                      <li>Painted two murals downtown of Columbia, Missouri with the C.A.R.E. Art Gallery Program</li>
+                      <li>1/5 of the students who planned and constructed a Black History Month Assembly for our High School; Showcasing 'The Phenomenal Ones"</li>
+                      <li>Columbia Art League Scholarship recipient</li>
+                      <li>Missouri State Teachers Association Scholarship recipient</li>
+                     
+                </ul>
+            </div>
+    </div>     
+        <h2>Last Updated By Jazzmyn C. Sims (JCSG6C) at: 02.22.2021</h2> 
+ </body>
+</html>

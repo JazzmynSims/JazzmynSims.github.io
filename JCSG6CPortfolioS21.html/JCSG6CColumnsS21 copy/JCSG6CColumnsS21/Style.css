@@ -1,0 +1,51 @@
+
+   
+
+body {
+  background-color: bisque;
+
+}
+.center {
+  background-color: lightgrey;
+  width: 300px;
+  border: 6px solid pink;
+  padding: 50px;
+  margin: 20px;
+}
+.topRow {
+  background-color: lightgrey;
+  width: 376px;
+  height:211px;
+  border: 6px solid pink;
+  border-radius: 6px;
+  padding: 22px;
+  margin: 20px;
+}
+.bottomRow {
+  background-color: lightgrey;
+  width: 300px;
+  border: 6px solid pink;
+  padding: 30px;
+  margin: 20px;
+  text-align: top left;
+}
+ .leftColumn {
+  background-color: lightgrey;
+  width: 244px;
+  border: 6px solid pink;
+  border-radius: 6px;
+  padding: 50px;
+  margin: 21px;
+}
+ .rightColumn {
+  background-color: lightgrey;
+  width: 244px;
+  border: 6px solid pink;
+  padding: 21px;
+  margin: 21px;
+     
+box-sizing: content-box;
+width: 100%;
+border: solid pink 6px;
+padding: 5px;
+}
