@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="jslogo.png">
+
+        <link rel="stylesheet" href="nav.css">
+        <link href="flex.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+              crossorigin="anonymous">
+
+                <link href="hamburgermenu.css" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      
+        <title>About Me</title>
+       
+       <style>
+        /* Reference: https://www.w3schools.com/css/css_navbar_horizontal.asp */
+     ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+     }
+     
+     li {
+       display: inline;
+     }
+     /* End of Reference */
+
+     ul li { 
+     display: inline; 
+     border: none; 
+     text-decoration: underline; 
+     text-align: center; 
+     width: 160px; 
+     list-style-type: none; 
+     padding: 30px 30px 30px 30px; 
+     margin-top: 0; 
+     margin-left: 15px; 
+     }
+ .dropbtn {
+  padding: 16px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ffffff}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}/* End of Reference */
+
+img {
+  border: 5px solid #cf5f40;
+}
+/* Reference: https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mediaquery */
+
+body {
+  background-color: rgb(46, 49, 54);
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(255, 191, 131);
+  }
+}/* End of Reference: https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mediaquery */
+
+/*Reference: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
+
+
+/* End of Reference */
+
+           .wrapper {
+               text-align: center;
+               width: 85%;
+               
+           }
+           .clearfix:after {
+               clear: both;
+               content: "";
+               display: block;
+           }
+            .cardWidth {
+               width: 18rem;
+               float: left;
+        
+           }
+           .card-body {
+           margin: 2%;
+           width: 100%;
+           box-shadow: 10px 10px;
+           }
+           h1{
+             color: white;
+             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+           }
+          
+           .fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.icons{
+  text-align: center;
+}
+.fa-phone{
+  background: white;
+  color: black;
+}
+.Copyright{
+  color: black;
+}
+h3{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+             </style>
+
+               
+</head>
+<body>
+            <nav class="nav_links">
+                <ul>
+                     <li><a href="index.html">HOME</a></li>
+                     <li><a href="about.html">ABOUT</a></li>
+                    
+                   
+                     ​<div class="dropdown">
+                      <li><a href="project.html">PROJECTS</a></li>
+                      <div class="dropdown-content">
+                        <a href="index1.html">Course Hisorty</a>
+                        <a href="https://github.com/JazzmynSims/2019-Project/blob/master/Introduction.md">First Project</a>
+                        <a href="https://www.instagram.com/jsmarksarts/">JSMarksArts</a>
+                        </div>
+                      </div>
+                      <li><a href="reflection.html">REFLECTION</a></li>
+                      <li><a href="contact.html">CONTACT</a></li>
+                    
+                </ul>
+            </nav>
+    
+   <br>
+    <header>
+        <h1>Sims Previous Projects</h1>
+    </header>
+  <br>
+    
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="courseHistory.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Course History</h5>
+          <p class="card-text">A few previous course history. Table chart created and designed by Jazzmyn. </p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <a href="" class="btn btn-primary">Project</a>
+
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="firstProject.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">First Project</h5>
+          <p class="card-text">My favorite project was an assignment that we had to create on github. The assignment was to create a personal site in markdown that is hosted on GitHub and provides information about you. This is my favorite because this was my first professional-like coding website.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <a href="https://github.com/JazzmynSims/2020-Project.git" class="btn btn-primary">Project</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="artpage.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">JSMarksArts</h5>
+          <p class="card-text">JSMarksArts was created when I was 14 years old. Over the years I have developed and explored more with my artist abilites. Website is currently under construction but click "View More" to explore more of my artwork!</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <a href="https://www.instagram.com/jsmarksarts/" class="btn btn-primary">View More</a>
+
+        </div>
+      </div>
+    </div>
+
+    
+
+<br>
+<br>
+  
+         <div class="Footer">
+
+<footer>
+    <!-- Reference: https://www.w3schools.com/tags/tag_footer.asp -->
+
+    <!--Social media icons -->
+  <br>
+  <div class="icons">
+
+    <a href="mailto:JCSG6C@umsystem.edu" class="fa fa-google"></a>
+     <a href="linkedin.com/in/jazzmyn-sims-bb5667184" class="fa fa-linkedin"></a>
+     <a href="tel:1+888-888-8888" class="fa fa-phone"></a>
+
+ </div>
+   <h3>CREATOR: JAZZMYN SIMS</h3>
+   <div class="Copyright">
+
+       <!-- Reference: https://www.html.am/html-codes/character-codes/html-copyright-code.cfm -->
+       &copy; Copyright 2022 Jazzmyn Sims, Inc
+<br>
+</footer>
+</div>
+    
+</body>
+</html>
