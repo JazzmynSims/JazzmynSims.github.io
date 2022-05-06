@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<!--
+    Name: Jazzmyn Sims 
+    Pawprint: JCSG6C
+    Date: 02-10-2021
+    Challenge 3: Tables
+    Reference: 
+1. https://getbootstrap.com/docs/5.0/content/tables/#striped-rows
+2. https://getbootstrap.com/docs/4.0/components/card/
+3. https://www.w3schools.com/tags/att_td_rowspan.asp
+4. https://getbootstrap.com/docs/4.0/getting-started/introduction/#css
+5. https://github.com/github
+6. https://www.property.nhs.uk/news-insight/insights/online-event-technology-and-the-nhs-estate/
+-->
+<html lang="en">
+ <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" 
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+              crossorigin="anonymous">
+
+        <title>Courses</title>
+     
+     
+       <style>
+           
+        
+          
+            #ClassesTaken th, #ClassesTaken td {
+                border: 3px solid black;
+                padding: 10px 20px;
+                font-size: 18pt;
+                height: 50px;
+            }
+            table#ClassesTaken {
+                border-collapse: collapse;
+                width: 100%;
+       
+            }
+            img.header {
+                width: 200px;
+                height:200px;
+            }
+            .header {
+                background-color: burlywood;
+                text-align: center;
+                color: white;
+                font-size: 36pt;
+                
+            }
+            img {
+                vertical-align: middle;
+           }
+    
+           .wrapper {
+               text-align: center;
+               width: 85%;
+               
+           }
+           .clearfix:after {
+               clear: both;
+               content: "";
+               display: block;
+           }
+            .cardWidth {
+               width: 18rem;
+               float: left;
+        
+           }
+           .card-body {
+           margin: 2%;
+           width: 100%;
+           box-shadow: 10px 10px;
+           }
+
+        
+        </style>
+    <body>
+        
+        <table id="ClassesTaken">
+            <tr class="header">
+               
+                <th> 
+                        <img class= "header" src="Mizzoulogo.png" alt="Logo">
+                         
+                              Jazzmyn's Course History
+                        
+                        <img class="header" src="Mizzoulogo.png" alt="Logo">
+                </th>
+           
+        </table>
+     
+    
+        <div class="container-fluid">
+            
+<!-- Start of reference table https://getbootstrap.com/docs/5.0/content/tables/#striped-rows-->
+            <table class="table table-dark table-striped">
+                <thead>
+                    <tr>          
+                        <th scope="col">Department</th>
+                        <th scope="col">Course</th>
+                        <th scope="col">CID</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Professor</th>
+                        <th scope="col">Grade</th>
+                        <th scope="col">Unit(s)</th>
+                        <th scope="col">Projects/Skills</th>
+                        
+                  </tr>
+                  </thead>
+                <tbody>
+                    <tr>
+                <th scope="row">Engish</th>
+                <td>Exposition & Argumentation</td>
+                <td>English 1200</td>
+                <td>	
+Stresses writing as a process, with due attention given to critical reading and thinking skills applicable to all college classes, as well as to invention, drafting, revising, and rewriting. English 1000 is a prerequisite for any Writing Intensive course.
+                </td>
+                <td>Vendran Husic</td>
+                <td>C</td>
+                <td>3</td>
+                <td>N/A</td> 
+                    </tr>
+                        
+                <tr>
+                <th scope="row">History</th>
+                <td>Advanced African American Studies</td>
+                <td>HIST SSC</td>
+                <td>	
+*Social Science Transfer Credit* This challenging year-long, dual credit option course with the Moberly Area Community College is a reading and writing intensive class that covers the same content as the regular African American Studies course offered by CPS at a more rigorous level. This course may be integrated with English 12: African-American Literature (2451EN) and taught in a block fashion (2 credits will be earned if blocked). This class will be taught by both CPS teachers and faculty from the university. Students who enroll in this class will also receive 3 credit hours from the University of Missouri. [High School Description]
+                </td>
+                <td>Gregory Simmons</td>
+                <td>A</td>
+                <td>3</td>
+                <td>N/A</td> 
+            </tr>
+             
+            <tr>
+                <th scope="row">Human Development Family Science</th>
+                <td>Intimate Relationships and Marriage</td>
+                <td>H_D_FS 1610</td>
+                <td>	
+	
+Examination of historical and contemporary issues pertaining to intimate and marital relationships such as relationship formation and dissolution processes, love, sex, behavioral scripts, and conflict. Diversity related to race, ethnicity, gender, age, and sexual orientation is explored.
+                </td>
+                <td>Kelly Warzinik</td>
+                <td>B+</td>
+                <td>3</td>
+                <td>N/A</td> 
+            </tr>
+           
+            <tr>
+                <th rowspan="3">MATH</th>
+                <td>Finite Mathematics</td>
+                <td>MATH 1300</td>
+                <td>	
+		
+A selections of topics in finite mathematics such as: basic financial mathematics, counting methods and basic probability and statistics, systems of linear equations and matrices. Prerequisites:  Grade of C- or higher in MATH 1100, or MATH 1160, or both a College Algebra exemption and sufficient ALEKS score. Warning: without a College Algebra exemption, a sufficient ALEKS score will not suffice unless it is a proctored exam (for MATH 1100 credit).
+                </td>
+                <td>Hayden Graham</td>
+                <td>B-</td>
+                <td>3</td>
+                <td>N/A</td> 
+            </tr>
+       
+            <tr>
+                
+                <td>Calculus for Social and Life Sciences I</td>
+                <td>MATH 1400</td>
+                <td>	
+	
+The real number system, functions, analytic geometry, derivatives, integrals, maximum-minimum problems. No credit for students who have completed a calculus course.   A student may receive credit for MATH 1320 or MATH 1400 but not both.  A student may receive at most 5 units of credit among the MATH 1320 or MATH 1400 and MATH 1500.  Math Reasoning Proficiency Course.  Prerequisites:  grade of C- or higher in MATH 1100, or MATH 1160, or sufficient ALEKS score.
+                </td>
+                <td>Lijie Wang</td>
+                <td>C-</td>
+                <td>3</td>
+                <td>N/A</td> 
+            </tr>
+         
+            <tr>
+               
+                <td>Introduction to Probability and Statistics</td>
+                <td>MATH 1320</td>
+                <td>	
+The course will cover basic concepts and methods in probability and statistics. Topics include descriptive statistics, probabilities of events, random variables and their distributions, sampling distributions, estimation of population parameters, confidence intervals and hypothesis testing for population means and population proportions, chi-square tests
+                </td>
+                <td>Ilgin Sager</td>
+                <td>A-</td>
+                <td>3</td>
+                <td>N/A</td> 
+            </tr>
+         
+            <tr>
+                <th scope="row">Information Technology</th>
+                <td>Topics in Information Technology</td>
+                <td>INFOTC 4001</td>
+                <td>	
+	
+Topics may vary from semester to semester.  May be repeated upon consent of department.  Graded on A-F basis only.  Prerequisites: May be restricted to Information Technology majors during early registration.
+                </td>
+                <td>Dale Musser</td>
+                <td>A</td>
+                <td>3</td>
+                <td>N/A</td> 
+            </tr>
+            </tbody>
+            </table>
+            
+<!-- End of reference table from https://getbootstrap.com/docs/5.0/content/tables/#striped-rows -->
+       
+
+<!-- End of reference card from https://getbootstrap.com/docs/4.0/components/card/ -->
+</body>
